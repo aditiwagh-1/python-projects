@@ -1,0 +1,9 @@
+import the qrcode lib.
+import the pillow lib to show the qr code 
+
+
+input as a upi id from user
+payment url already defined
+qr code will be generate
+can save created qr code on your  system
+using pillow to view/preview the generated qr code
