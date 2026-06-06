@@ -1,7 +1,7 @@
 import random
 
 opt_list = ["Rock","Paper","Scissor"]
-user_choice = input("Enter your move = (Rock, Paper, Scissor) = ")
+user_choice = input("Enter your move = (Rock, Paper, Scissor) = ").capitalize()
 comp_choice = random.choice(opt_list)
 
 print("you choose = {} and computer choosed = {}".format(user_choice,comp_choice))
