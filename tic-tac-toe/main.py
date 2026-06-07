@@ -28,6 +28,7 @@ def toggle_player():
     label.config(text=f"player {current_player}'s turn")
 
 root = tk.Tk()
+
 root.title("Tic-Tac-Toe")
 
 
