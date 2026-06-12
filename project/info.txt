@@ -1,0 +1,18 @@
+fake news headline generator
+==> 
+1. what we are going to build... fake+funny
+2. how it will work
+list   subject (who , what)
+       actions 
+       place (where , when, what)
+
+sentences
+
+
+Concept                     What It Means in This Project
+lists                       To store groups of words like names, actions, and places
+random.choice()             To pick one item randomly from a list
+print()                     To show the fake headline on screen
+input()                     To ask the user if they want another headline
+while loop                  To repeat the process until the user says "no"
+string concatenation or f-strings       To form a sentence using selected words
