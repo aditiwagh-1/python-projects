@@ -4,35 +4,35 @@
 import random
 
 # create subjects
-subjects = {
+subjects = [
     "shahrukh khan",
     "virat kohli",
     "nirmala sitharaman",
     "a mumbai cat",
     "A group of monkey",
     "prime minister",
-    "auto rickshaw driver from dehli"
-}
+    "auto rickshaw driver from dehli",
+]
 
-actions ={
+actions = [
     "launches",
     "cancels",
     "dances with",
     "eats",
     "declares war on",
     "orders",
-    "celebrates"
-}
+    "celebrates",
+]
 
 
-place_things = {
+place_things = [
     "at red fort",
     "in mumbai local train",
     "a plote of samosa",
     "at ganga ghat",
     "during ipl match",
-    "aat india gate"
-}
+    "aat india gate",
+]
 
 
 # start the headline generation 
@@ -41,10 +41,10 @@ while(True):
     action = random.choice(actions)
     place_thing = random.choice(place_things)
 
-    headline = f"BREAKING NEWS {subject} {action} "{place_thing} "
+    headline = f"BREAKING NEWS {subject} {action} {place_thing}"
     print("\n"+headline)
 
-    user_input = input("\nDo you want another headline (yes or no) : ").strip().capitalize()
+    user_input = input("\nDo you want another headline (yes or no) : ").strip().lower()
     if user_input == "no":
         break
 
