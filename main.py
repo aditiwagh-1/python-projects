@@ -12,9 +12,9 @@ while True:
                 print("Correct")
                 break
             elif (secreate > num):
-                print("high")
-            else:
-                print("low")
+                print("high number than the guessed")
+            else: 
+                print("low number than guessed")
         
 
 print(f"your guess number = {num}")
