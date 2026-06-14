@@ -7,7 +7,7 @@ while True:
             num = int(input("Guess a  number between 1 to 100 "))
         except ValueError:
             print("invalude value entered")
-        else:   
+        else:
             if(secreate == num):
                 print("Correct")
                 break
@@ -16,7 +16,6 @@ while True:
             else:
                 print("low")
         
-
 
 print(f"your guess number = {num}")
 print(f"computer  guessed number = {secreate}")
